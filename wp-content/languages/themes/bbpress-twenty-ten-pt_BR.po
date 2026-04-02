@@ -1,0 +1,775 @@
+# Translation of bbPress (Twenty Ten) in Portuguese (Brazil)
+# This file is distributed under the same license as the bbPress (Twenty Ten) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-18 07:17:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: bbPress (Twenty Ten)\n"
+
+#. Theme Name of the plugin/theme
+msgid "bbPress (Twenty Ten)"
+msgstr "bbPress (Twenty Ten)"
+
+#. Description of the plugin/theme
+msgid "Adds bbPress forums to the Twenty Ten theme"
+msgstr "Adiciona fóruns bbPress ao tema Twenty Ten"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Create Topic"
+msgstr "bbPress - Criar tópico"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Statistics"
+msgstr "bbPress - Estatísticas"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Forums (Index)"
+msgstr "bbPress - Fóruns (índice)"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topics (Newest)"
+msgstr "bbPress - Tópicos (novos)"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topic Tags"
+msgstr "bbPress - Tags de tópico"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topics (No Replies)"
+msgstr "bbPress - Tópicos (sem respostas)"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Login"
+msgstr "bbPress - Login de usuário"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Lost Password"
+msgstr "bbPress - Recuperar senha"
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Register"
+msgstr "bbPress - Registro de usuários"
+
+#: page-topic-tags.php:23
+msgid "<p>This is a collection of tags that are currently popular on our forums.</p>"
+msgstr "<p>Esta é uma coleção de tags que atualmente são populares nos fóruns.</p>"
+
+#: single-reply.php:50
+msgid "Posted on %1$s at %2$s"
+msgstr "Publicado em %1$s ás %2$s"
+
+#: taxonomy-topic-tag-edit.php:18 taxonomy-topic-tag.php:18
+msgid "Topic Tag: %s"
+msgstr "Tag do Tópico: %s"
+
+#: page-forum-statistics.php:99
+msgid "Popular Topics"
+msgstr "Tópicos Populares"
+
+#: page-forum-statistics.php:80
+msgid "Hidden Replies"
+msgstr "Respostas Ocultas"
+
+#: page-forum-statistics.php:69
+msgid "Hidden Topics"
+msgstr "Tópicos Ocultos"
+
+#: page-forum-statistics.php:60
+msgid "Empty Topic Tags"
+msgstr "Tags de Tópico Vazia"
+
+#: page-forum-statistics.php:53
+msgid "Topic Tags"
+msgstr "Tags de Tópico"
+
+#: page-forum-statistics.php:38
+msgid "Forums"
+msgstr "Fóruns"
+
+#: page-forum-statistics.php:33
+msgid "Registered Users"
+msgstr "Usuários registrados"
+
+#: page-forum-statistics.php:27
+msgid "<p>Here are the statistics and popular topics of our forums.</p>"
+msgstr "<p>Aqui estão as estatísticas e tópicos populares do nosso fórum.</p>"
+
+#: bbpress-functions.php:217
+msgid "Unsubscribe"
+msgstr "Cancelar Assinatura"
+
+#: bbpress-functions.php:207
+msgid "Add this topic to your favorites"
+msgstr "Adicionar este tópico aos seus favoritos"
+
+#: bbpress-functions.php:216
+msgid "Subscribe"
+msgstr "Assinar"
+
+#: bbpress-functions.php:204
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "Este tópico é um de seus %favLinkYes% [%favDel%]"
+
+#: bbpress-functions.php:205
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bbpress-functions.php:206
+msgid "&times;"
+msgstr "&vezes;"
+
+#: bbpress-functions.php:203
+msgid "?"
+msgstr "?"
+
+#: bbpress-functions.php:60
+msgid "Twenty Ten (bbPress)"
+msgstr "Twenty Ten (bbPress)"
+
+#: bbpress-functions.php:202
+msgid "favorites"
+msgstr "Favoritos"
+
+#: bbpress/user-topics-created.php:17
+msgid "Forum Topics Created"
+msgstr "Tópicos de fórum criados"
+
+#: bbpress/user-topics-created.php:28
+msgid "You have not created any topics."
+msgstr "Você não criou nenhum tópico."
+
+#: bbpress/user-topics-created.php:28
+msgid "This user has not created any topics."
+msgstr "Este usuários não criou nenhum tópico."
+
+#: bbpress/user-subscriptions.php:32
+msgid "This user is not currently subscribed to any topics."
+msgstr "Este usuário não está assinando nenhum tópico."
+
+#: bbpress/user-subscriptions.php:32
+msgid "You are not currently subscribed to any topics."
+msgstr "Você não está assinando nenhum tópico atualmente."
+
+#: bbpress/user-subscriptions.php:21
+msgid "Subscribed Forum Topics"
+msgstr "Tópicos de Fórum Assinados"
+
+#: bbpress/user-favorites.php:28
+msgid "You currently have no favorite topics."
+msgstr "Você não tem tópicos favoritos."
+
+#: bbpress/user-favorites.php:28
+msgid "This user has no favorite topics."
+msgstr "Este usuário não tem tópicos favoritos."
+
+#: bbpress/user-favorites.php:17
+msgid "Favorite Forum Topics"
+msgstr "Tópicos de Fórum Favoritos"
+
+#: bbpress/user-details.php:33
+msgid "About %s"
+msgstr "Sobre %s"
+
+#: bbpress/user-details.php:20
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: bbpress/user-details.php:16
+msgid "Profile: %s"
+msgstr "Perfil: %s"
+
+#: bbpress/user-details.php:20
+msgid "Edit Profile of User %s"
+msgstr "Editar Perfil do Usuário %s"
+
+#: bbpress/loop-topics.php:21
+msgid "Remove"
+msgstr "Remover"
+
+#: bbpress/loop-topics.php:18
+msgid "Voices"
+msgstr "Vozes"
+
+#: bbpress/loop-single-topic.php:38
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr "em: <a href=\"%1$s\">%2$s</a>"
+
+#: bbpress/loop-single-topic.php:30
+msgid "Started by: %1$s"
+msgstr "Iniciado por: %1$s"
+
+#: bbpress/loop-replies.php:17 bbpress/loop-replies.php:40 single-reply.php:29
+msgid "Author"
+msgstr "Autor"
+
+#: bbpress/loop-forums.php:21 bbpress/loop-topics.php:20
+msgid "Freshness"
+msgstr "Tempo"
+
+#: bbpress/loop-forums.php:20 bbpress/loop-replies.php:22
+#: bbpress/loop-replies.php:45 bbpress/loop-topics.php:19
+msgid "Posts"
+msgstr "Posts"
+
+#: bbpress/loop-forums.php:20 bbpress/loop-replies.php:30
+#: bbpress/loop-replies.php:49 bbpress/loop-topics.php:19
+#: page-forum-statistics.php:48 single-reply.php:30
+msgid "Replies"
+msgstr "Respostas"
+
+#: bbpress/loop-forums.php:19 page-forum-statistics.php:43
+msgid "Topics"
+msgstr "Tópicos"
+
+#: bbpress/loop-forums.php:18
+msgid "Forum"
+msgstr "Fórum"
+
+#: bbpress/form-user-register.php:18
+msgid "We use your email address to email you a secure password and verify your account."
+msgstr "Nós usamos seu endereço de email para enviar-lhe uma senha segura e verificar sua conta."
+
+#: bbpress/form-user-register.php:36
+msgid "Register"
+msgstr "Registrar-se"
+
+#: bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr "Seu nome de usuário deve ser único e não poderá ser alterado."
+
+#: bbpress/form-user-lost-pass.php:27
+msgid "Reset my password"
+msgstr "Redefinir minha senha"
+
+#: bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr "Crie uma conta"
+
+#: bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr "Nome de Usuário ou Email"
+
+#: bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr "Mantenha-me autenticado"
+
+#: bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr "Senha perdida"
+
+#: bbpress/form-user-login.php:22
+msgid "Password"
+msgstr "Senha"
+
+#: bbpress/form-user-login.php:14 bbpress/form-user-login.php:35
+msgid "Log In"
+msgstr "Login"
+
+#: bbpress/form-user-edit.php:174
+msgid "Update User"
+msgstr "Atualizar usuário"
+
+#: bbpress/form-user-edit.php:174
+msgid "Update Profile"
+msgstr "Atualizar perfil"
+
+#: bbpress/form-user-edit.php:169
+msgid "Save Changes"
+msgstr "Salvar alterações"
+
+#: bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr "Conceder privilégios de super admin da Rede para este usuário."
+
+#: bbpress/form-user-edit.php:153
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: bbpress/form-user-edit.php:142
+msgid "Role:"
+msgstr "Função:"
+
+#: bbpress/form-user-edit.php:135
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Dica: Sua senha deve ter pelo menos sete caracteres. Para torná-la mais segura, use letras maiúsculas e minúsculas, números e símbolos como ! \" ? $ % ^ &amp; )."
+
+#: bbpress/form-user-edit.php:132
+msgid "Type your new password again."
+msgstr "Digite sua nova senha novamente."
+
+#: bbpress/form-user-edit.php:129
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr "Para alterar sua senha, digite a nova senha; caso contrário, deixe este espaço em branco."
+
+#: bbpress/form-user-edit.php:126
+msgid "New Password"
+msgstr "Nova senha"
+
+#: bbpress/form-user-edit.php:117
+msgid "There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
+msgstr "Há uma mudança de endereço de email pendente para <code>%1$s</code>. <a href=\"%2$s\">Cancelar</a>"
+
+#: bbpress/form-user-edit.php:105 bbpress/form-user-register.php:28
+msgid "Email"
+msgstr "Email"
+
+#: bbpress/form-user-edit.php:101
+msgid "Usernames cannot be changed."
+msgstr "Não é possível alterar nomes de usuário."
+
+#: bbpress/form-user-edit.php:99 bbpress/form-user-login.php:17
+#: bbpress/form-user-register.php:23
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: bbpress/form-user-edit.php:91 bbpress/form-user-edit.php:94
+msgid "Account"
+msgstr "Conta"
+
+#: bbpress/form-user-edit.php:84
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Escreva uma minibiografia para constar no seu perfil. Essas informações poderão ser vistas por todos."
+
+#: bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr "Informações biográficas"
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr "Sobre o usuário"
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr "Sobre você"
+
+#: bbpress/form-user-edit.php:57
+msgid "Website"
+msgstr "Site"
+
+#: bbpress/form-user-edit.php:49 bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr "Informações de contato"
+
+#: bbpress/form-user-edit.php:39
+msgid "Display name publicly as"
+msgstr "Exibir o nome publicamente como"
+
+#: bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr "Apelido"
+
+#: bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr "Nome"
+
+#: bbpress/form-user-edit.php:14 bbpress/form-user-edit.php:19
+msgid "Name"
+msgstr "Nome"
+
+#: bbpress/form-topic.php:225
+msgid "You must be logged in to create new topics."
+msgstr "Você deve fazer login para criar novos tópicos."
+
+#: bbpress/form-topic.php:135
+msgid "Topic Type:"
+msgstr "Tipo de Tópico:"
+
+#: bbpress/form-topic.php:225
+msgid "You cannot create new topics at this time."
+msgstr "Você não pode criar novos tópicos nesse momento."
+
+#: bbpress/form-topic.php:121
+msgid "Forum:"
+msgstr "Fórum:"
+
+#: bbpress/form-topic.php:110
+msgid "Topic Tags:"
+msgstr "Tags do tópico:"
+
+#: bbpress/form-topic.php:86
+msgid "Topic:"
+msgstr "Tópico:"
+
+#: bbpress/form-topic.php:75
+msgid "Topic Title (Maximum Length: %d):"
+msgstr "Título do Tópico (Comprimento máximo %d):"
+
+#: bbpress/form-topic.php:53
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr "Este fórum está marcado como encerrado para novos tópicos, no entanto, suas capacidades de publicação ainda permitem isso."
+
+#: bbpress/form-topic.php:43
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr "Criar Novo Tópico em &ldquo;%s&rdquo;"
+
+#: bbpress/form-topic.php:43
+msgid "Create New Topic"
+msgstr "Criar novo Tópico"
+
+#: bbpress/form-topic-tag.php:103
+msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Tem certeza que quer apagar a tag \"%s\"? Isso é permanente e não poderá ser desfeito."
+
+#: bbpress/form-topic-tag.php:96
+msgid "Any links to this tag will no longer function."
+msgstr "Qualquer link para esta tag não mais funcionará."
+
+#: bbpress/form-topic-tag.php:92
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr "Isto não exclui seus tópicos. Apenas a tag é excluída."
+
+#: bbpress/form-topic-tag.php:95
+msgid "Deleting a tag cannot be undone."
+msgstr "Excluir tag não poderá ser desfeito."
+
+#: bbpress/form-topic-tag.php:89 bbpress/form-topic-tag.php:102
+msgid "Delete"
+msgstr "Excluir"
+
+#: bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr "Tag existente:"
+
+#: bbpress/form-topic-tag.php:74
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr "Tem certeza de que deseja mesclar a tag \"%s\" com a tag que especificou?"
+
+#: bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr "Mesclar tags não poderá ser desfeito."
+
+#: bbpress/form-topic-tag.php:59 bbpress/form-topic-tag.php:73
+msgid "Merge"
+msgstr "Mesclar"
+
+#: bbpress/form-topic-tag.php:45
+msgid "Update"
+msgstr "Atualizar"
+
+#: bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr "Slug:"
+
+#: bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr "Nome:"
+
+#: bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr "Deixe este slug vazio para ter um gerado automáticamente."
+
+#: bbpress/form-topic-tag.php:29
+msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgstr "Mudar o slug afeta o link permanente. Qualquer link para o slug antigo não mais funcionará."
+
+#: bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr "Renomear"
+
+#: bbpress/form-topic-tag.php:18
+msgid "Manage Tag: \"%s\""
+msgstr "Gerenciar Tag: \"%s\""
+
+#: bbpress/form-topic-split.php:81
+msgid "Copy favoriters to the new topic"
+msgstr "Copiar quem adicionou aos Favoritos para novo tópico"
+
+#: bbpress/form-topic-split.php:84
+msgid "Copy topic tags to the new topic"
+msgstr "Copiar tags de tópico para novo tópico"
+
+#: bbpress/form-topic-split.php:76
+msgid "Copy subscribers to the new topic"
+msgstr "Copiar assinantes para o novo tópico"
+
+#: bbpress/form-topic-split.php:58
+msgid "No other topics found!"
+msgstr "Nenhum tópico encontrado!"
+
+#: bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr "Usar um tópico existente neste fórum:"
+
+#: bbpress/form-topic-split.php:42
+msgid "Split: %s"
+msgstr "Dividir: %s"
+
+#: bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr "Novo tópico em <strong>%s</strong> entitulado:"
+
+#: bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr "Método de Divisão"
+
+#: bbpress/form-topic-split.php:33
+msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgstr "Se usar um tópico existente, resposta em ambos os tópicos serão mescladas cronologicamente. A ordem de mesclagem das resposta é baseada na data em que foram publicadas."
+
+#: bbpress/form-topic-split.php:29
+msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgstr "Quando divide um tópico, você o está separando pelo meio a partir da resposta que selecionou. Escolha uma resposta para ser usada como um novo tópico, com um novo título, ou mescle estas respostas em um tópico existente."
+
+#: bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr "Dividir tópico \"%s\""
+
+#: bbpress/form-topic-merge.php:103 bbpress/form-topic-split.php:107
+msgid "You cannot edit this topic."
+msgstr "Você não pode editar este tópico."
+
+#: bbpress/form-topic-merge.php:103 bbpress/form-topic-split.php:107
+msgid "You do not have the permissions to edit this topic!"
+msgstr "Sem permissão para editar este tópico!"
+
+#: bbpress/form-topic-merge.php:86 bbpress/form-topic-split.php:90
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr "<strong>ATENÇÃO:</strong> Este processão não poderá ser desfeito."
+
+#: bbpress/form-topic-merge.php:80
+msgid "Merge topic tags"
+msgstr "Mesclar tags de tópico"
+
+#: bbpress/form-topic-merge.php:77
+msgid "Merge topic favoriters"
+msgstr "Mesclar quem adicionou aos favoritos"
+
+#: bbpress/form-topic-merge.php:72
+msgid "Merge topic subscribers"
+msgstr "Mesclar assinantes de tópicos"
+
+#: bbpress/form-topic-merge.php:65 bbpress/form-topic-split.php:69
+msgid "Topic Extras"
+msgstr "Extras"
+
+#: bbpress/form-topic-merge.php:57
+msgid "There are no other topics in this forum to merge with."
+msgstr "Não há tópicos neste fórum para serem mesclados."
+
+#: bbpress/form-topic-merge.php:51
+msgid "No topics were found to which the topic could be merged to!"
+msgstr "Nenhum tópico que pudesse ser mesclado com este foi encontrado!"
+
+#: bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr "Destino"
+
+#: bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr "Mesclar com o tópico:"
+
+#: bbpress/form-topic-merge.php:34
+msgid "All replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted. If the destination topic was created after this one, it's post date will be updated to second earlier than this one."
+msgstr "Todas as respostas em ambos os tópicos serão mescladas cronologicamente. A ordem de mesclagem se baseia na data em que foram publicados. Se o tópico de destino foi criado depois deste, sua data de publicação será atualizada para um segundo mais cedo."
+
+#: bbpress/form-topic-merge.php:29
+msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgstr "Selecione o tópico a ser mesclado a este. O tópico de destino será mantido como o primeiro e este ficará como sendo uma resposta."
+
+#: bbpress/form-topic-merge.php:30
+msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgstr "Para manter este tópico como o primeiro, vára para outro tópico e use a ferramenta de mesclar a partir dele."
+
+#: bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr "Mesclar tópico \"%s\""
+
+#: bbpress/form-reply.php:184
+msgid "You must be logged in to reply to this topic."
+msgstr "Você deve fazer login para responder a este tópico."
+
+#: bbpress/form-reply.php:176 bbpress/form-topic.php:217
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr "O fórum &#8216;%s&#8217; está fechado para novos tópicos e respostas."
+
+#: bbpress/form-reply.php:184
+msgid "You cannot reply to this topic."
+msgstr "Você não pode responder a este tópico."
+
+#: bbpress/form-reply.php:168
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr "O tópico &#8216;%s&#8217; está fechado para novas respostas."
+
+#: bbpress/form-reply.php:122 bbpress/form-topic.php:175
+msgid "Keep a log of this edit:"
+msgstr "Manter um log desta edição:"
+
+#: bbpress/form-reply.php:126 bbpress/form-topic.php:179
+msgid "Optional reason for editing:"
+msgstr "Razão para esta edição (opcional):"
+
+#: bbpress/form-reply.php:119 bbpress/form-topic.php:172
+msgid "Revision"
+msgstr "Revisão"
+
+#: bbpress/form-reply.php:104 bbpress/form-topic.php:158
+msgid "Notify me of follow-up replies via email"
+msgstr "Notifique-me de novas respostas via email"
+
+#: bbpress/form-reply.php:100 bbpress/form-topic.php:154
+msgid "Notify the author of follow-up replies via email"
+msgstr "Notificar o autor sobre novas resposta via email"
+
+#: bbpress/form-reply.php:84
+msgid "Tags:"
+msgstr "Tags: "
+
+#: bbpress/form-reply.php:36
+msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
+msgstr "Este tópico está marcado como encerrado para novas respostas, no entanto suas capacidades de publicação ainda o permite fazê-lo."
+
+#: bbpress/form-reply.php:60
+msgid "Reply:"
+msgstr "Resposta:"
+
+#: bbpress/form-protected.php:14
+msgid "Protected"
+msgstr "Protegido"
+
+#: bbpress/form-reply.php:29
+msgid "Reply To: %s"
+msgstr "Responder a: %s"
+
+#: bbpress/form-forum.php:180
+msgid "You cannot create new forums at this time."
+msgstr "Você não pode criar um novo fórum agora."
+
+#: bbpress/form-forum.php:180
+msgid "You must be logged in to create new forums."
+msgstr "Você precisa fazer login antes de criar novos fóruns."
+
+#: bbpress/form-forum.php:172
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr "O fórum &#8216;%s&#8217; está fechado para novo conteúdo."
+
+#: bbpress/form-forum.php:149 bbpress/form-reply.php:145
+#: bbpress/form-topic-merge.php:90 bbpress/form-topic-split.php:94
+#: bbpress/form-topic.php:194
+msgid "Submit"
+msgstr "Enviar"
+
+#: bbpress/form-forum.php:134
+msgid "(No Parent)"
+msgstr "(sem mãe)"
+
+#: bbpress/form-forum.php:129
+msgid "Parent Forum:"
+msgstr "Fórum Pai:"
+
+#: bbpress/form-forum.php:120
+msgid "Visibility:"
+msgstr "Visibilidade:"
+
+#: bbpress/form-forum.php:111
+msgid "Status:"
+msgstr "Status:"
+
+#: bbpress/form-forum.php:102
+msgid "Forum Type:"
+msgstr "Tipo de fórum:"
+
+#: bbpress/form-forum.php:67
+msgid "Forum Name (Maximum Length: %d):"
+msgstr "Nome do Fórum (Comprimento máximo: %d):"
+
+#: bbpress/form-forum.php:78
+msgid "Forum Description:"
+msgstr "Descrição do fórum:"
+
+#: bbpress/form-forum.php:93 bbpress/form-reply.php:75
+#: bbpress/form-topic.php:101
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr "Você pode usar estas <abbr title=\"HyperText Markup Language\"> tags HTML</abbr> e atributos:"
+
+#: bbpress/form-forum.php:55 bbpress/form-reply.php:44
+#: bbpress/form-topic.php:61
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr "A sua conta tem a capacidade de publicar conteúdo HTML sem restrições."
+
+#: bbpress/form-forum.php:37
+msgid "Create New Forum"
+msgstr "Criar novo Fórum"
+
+#: bbpress/form-forum.php:47
+msgid "This forum is closed to new content, however your account still allows you to do so."
+msgstr "Este fórum está fechado para conteúdo novo, mas sua conta ainda permite que faça isso."
+
+#: bbpress/form-forum.php:35 bbpress/form-topic.php:41
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr "Editando &ldquo;%s&rdquo;"
+
+#: bbpress/form-forum.php:37
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr "Criar novo fórum em &ldquo;%s&rdquo;"
+
+#: bbpress/form-anonymous.php:32
+msgid "Website:"
+msgstr "Website:"
+
+#: bbpress/form-anonymous.php:27
+msgid "Mail (will not be published) (required):"
+msgstr "Email (não será publicado) (obrigatório):"
+
+#: bbpress/form-anonymous.php:22
+msgid "Name (required):"
+msgstr "Name (obrigatório):"
+
+#: bbpress/form-anonymous.php:17
+msgid "Your information:"
+msgstr "Sua informação:"
+
+#: bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr "Oh céus! Nenhum tópico foi encontrado!"
+
+#: bbpress/form-anonymous.php:17
+msgid "Author Information"
+msgstr "Informações do Autor"
+
+#: bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr "Oh céus! Nenhum fórum foi encontrado aqui!"
+
+#: bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr "Oh céus! Nenhuma resposta foi encontrada aqui!"
+
+#: bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr "Você não tem permissão para ver este fórum."
+
+#: bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr "Privado"
+
+#: bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr "Você já está autenticado."
+
+#: bbpress/content-single-topic-lead.php:45 bbpress/loop-single-reply.php:15
+msgid "%1$s at %2$s"
+msgstr "%1$s às %2$s"
+
+#: bbpress/content-single-topic-lead.php:20 bbpress/loop-topics.php:17
+msgid "Topic"
+msgstr "Tópico"
+
+#: bbpress/content-single-topic-lead.php:17
+msgid "Creator"
+msgstr "Criador"
+
+#. Theme URI of the plugin/theme
+msgid "http://bbpress.org"
+msgstr "http://bbpress.org"
+
+#. Author of the plugin/theme
+msgid "WordPress and bbPress teams"
+msgstr "Times do WordPress e bbPress"
