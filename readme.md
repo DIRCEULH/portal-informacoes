@@ -26,3 +26,11 @@ PHP
 MySQL
 HTML5 & CSS3
 JavaScript
+
+
+Copyright (c) 2026 Dirceu Heineck
+
+Todos os direitos reservados.
+
+Este software e os arquivos associados não podem ser utilizados, copiados,
+modificados ou distribuídos sem autorização expressa do autor.
